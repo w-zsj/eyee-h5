@@ -1,0 +1,282 @@
+
+@charset "UTF-8";
+/* 拼团 */
+.groupon-container {
+  margin-bottom: 10px;
+}
+.groupon-container .coverflow {
+  padding-top: 10px;
+  height: 210px;
+}
+.group-item-promotion {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.group-item-promotion .left-box {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 140px;
+  -ms-flex: 0 0 140px;
+  flex: 0 0 140px;
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.group-item-promotion .left-box img {
+  width: 100%;
+  max-width: 100%;
+}
+.group-item-promotion .right-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 140px;
+  -ms-flex: 1 1 140px;
+  flex: 1 1 140px;
+  text-align: left;
+  padding-left: 8px;
+  padding-top: 15px;
+}
+.group-item-promotion .right-box .price-now {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.group-item-promotion .right-box .price-original {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #999999;
+}
+.group-item-promotion .right-box .middle-box {
+  margin-top: 4px;
+}
+.group-item-promotion .right-box .middle-box span {
+  display: block;
+}
+.group-item-promotion .right-box .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  white-space: nowrap;
+  width: 46vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.group-item-promotion .right-box .subtitle {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #999999;
+  white-space: nowrap;
+  width: 46vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.group-item-promotion .right-box .place {
+  margin-top: 3px;
+  color: #999999;
+}
+.group-item-promotion .right-box .place .info {
+  padding: 1px 2px;
+  display: inline-block;
+  color: #ffffff;
+  /*background-color: #93ADC1;*/
+  border-radius: 4px;
+}
+.group-item-promotion .right-box .place .location {
+  font-size: 11px;
+  display: inline-block;
+  padding-left: 0px;
+  width: 60%;
+  position: relative;
+  top: 3px;
+}
+.group-item-promotion .right-box .join-groupon {
+  margin-top: 10px;
+  color: #999999;
+  font-size: 12px;
+  position: relative;
+}
+.group-item-promotion .right-box .join-groupon span {
+  display: block;
+}
+.group-item-promotion .right-box .join-groupon .join-button {
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  border: none;
+  color: #333333;
+  padding: 6px 20px;
+  background-color: #FFC700;
+  border-radius: 6px;
+}
+.group-item-promotion .right-box .join-groupon .join-button.disabled {
+  background-color: #ccc;
+}
+.group_info {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.group_info ul {
+  margin: 0;
+  padding: 0;
+}
+.group_info li {
+  float: left;
+  font-size: 12px;
+  color: #666666;
+  list-style-type: disc;
+  margin-left: 19px;
+}
+.group_info span {
+  margin-left: -0.5em;
+}
+.group_info .people {
+  color: #FFC700;
+  list-style-type: none;
+}
+.group_list {
+  color: #666666;
+  font-size: 12px;
+  margin: 0px 15px;
+}
+.group_list .info {
+  padding: 13px 0px;
+}
+.group_list .info_border {
+  border-bottom: 1px solid #F2F2F2;
+}
+.group_list .group_more {
+  float: right;
+}
+.group_list_popup-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  background-color: #333333;
+  padding: 12px 0px 12px 36px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 4px 4px 0px 0px;
+}
+.group_list_popup-close {
+  float: right;
+  padding: 0px 11px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.group_list_popup {
+  height: 288px;
+  overflow: scroll;
+  z-index: 999;
+  margin: 0;
+  padding: 0 10px;
+}
+.group_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.group_item .item_avatar {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  overflow: hidden;
+  margin: 6px 6px;
+}
+.group_item .item_username {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #333333;
+  width: 25%;
+}
+.group_item .middle {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #333333;
+  text-align: right;
+  margin-right: 10px;
+}
+.group_item .middle .item_left {
+  color: #FFC700;
+  padding-bottom: 4px;
+}
+.group_item .middle .item_time_left {
+  font-weight: bold;
+  font-family: BASE_PRICE;
+  font-size: 14px;
+}
+.group_item .join-button {
+  font-size: 14px;
+  color: #333333;
+  padding: 21px 10px;
+  background-color: #FFC700;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+}
+.group_item .join-button.disabled{
+  background-color: #ccc;
+}
+.group_buy_btn_price {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 5px;
+}

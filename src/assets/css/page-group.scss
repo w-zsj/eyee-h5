@@ -1,0 +1,226 @@
+/* 拼团 */
+.groupon-container {
+  margin-bottom: 10px;
+  .coverflow {
+    padding-top: 10px;
+    height: 210px;
+  }
+}
+.group-item-promotion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .left-box {
+
+    flex: 0 0 140px;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex : 1 1 140px;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 15px;
+    .price-now {
+      font-size: 16px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .price-original {
+      text-decoration: line-through;
+      font-size: 12px;
+      color: #999999;
+    }
+    .middle-box {
+      margin-top: 4px;
+      span {
+        display: block;
+      }
+    }
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      color : #333333;
+      white-space:nowrap;
+      width:46vw;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .subtitle {
+      margin-top: 2px;
+      font-size: 12px;
+      color : #999999;
+      white-space:nowrap;
+      width:46vw;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .place {
+      margin-top: 3px;
+      color : #999999;
+      .info {
+        padding: 1px 2px;
+        display: inline-block;
+        color : #ffffff;
+        /*background-color: #93ADC1;*/
+        border-radius: 4px;
+      }
+      .location {
+        font-size: 11px;
+        display: inline-block;
+        padding-left: 0px;
+      }
+    }
+    .join-groupon {
+      margin-top: 10px;
+      color:#999999;
+      font-size : 12px;
+      position: relative;
+      span {
+        display: block;
+      }
+      .join-button {
+        position: absolute;
+        right: 20px;
+        top : 2px;
+        border: none;
+        color : #333333;
+        padding : 6px 20px;
+        background-color: #FFC700;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+.group_info {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.group_info ul {
+  margin: 0;
+  padding: 0;
+}
+.group_info li {
+  float: left;
+  font-size : 12px;
+  color: #666666;
+  list-style-type:disc;
+  margin-left: 19px;
+}
+.group_info span {
+  margin-left:-0.5em;
+}
+.group_info .people {
+  color : #FFC700;
+  list-style-type:none;
+}
+.group_list {
+  color : #666666;
+  font-size : 12px;
+  margin: 0px 15px;
+}
+.group_list .info {
+  padding: 13px 0px;
+}
+.group_list .info_border {
+  border-bottom: 1px solid #F2F2F2;
+}
+.group_list .group_more {
+  float: right;
+}
+.group_list_popup-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  background-color: #333333;
+  padding: 12px 0px 12px 36px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 4px 4px 0px 0px;
+}
+.group_list_popup-close{
+  float: right;
+  padding: 0px 11px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.group_list_popup{
+  height: 288px;
+  overflow: scroll;
+  z-index: 999;
+  margin: 0;
+  padding: 0 10px;
+}
+.group_item {
+  display: flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  font-size : 12px;
+  margin-bottom: 10px;
+}
+.group_item .item_avatar {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  overflow: hidden;
+  margin: 6px 6px;
+}
+.group_item .item_username {
+  flex-grow: 0;
+  flex-shrink: 0;
+  color : #333333;
+}
+.group_item .middle {
+  flex-grow: 1;
+  flex-shrink: 0;
+  color : #333333;
+  text-align: right;
+  margin-right: 10px;
+}
+.group_item .middle .item_left{
+  color : #FFC700;
+  padding-bottom: 4px;
+}
+.group_item .middle .item_time_left{
+  font-weight: bold;
+  font-size: 14px;
+}
+.group_item .join-button{
+  font-size: 14px;
+  color : #333333;
+  padding : 21px 10px;
+  background-color: #FFC700;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+}
+.group_buy_btn_price{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
